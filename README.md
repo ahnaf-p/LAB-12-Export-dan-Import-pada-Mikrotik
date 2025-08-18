@@ -13,5 +13,12 @@ Hasil Perintah Export berupa file dengan ekstensi ***.rsc**. Kita bisa download,
 
 Perlu diketahui, perintah export tidak menyimpan konfigurasi user dan password internal MikrotikOS. Export bisa digunakan untuk menampilkan konfigurasi salah satu fitur tertentu, tanpa harus menampilkan semua konfigurasi router. 
 
+Export Import Kriteria:  
+- Tidak bisa dengan menu click (GUI)  
+- Tidak backup all config  
+- Harus reboot kalo mau restore
+- Hanya ackup sebagian konfig
+- Bisa dibaca lewat text editor
+
 # Kesimpulan
 Export dan Import sebenarnya hampir mirip dengan Backup Restore, namun tentu saja ada perbedaannya. File Export Import berekstensi ***.rsc** yang bisa di edit/buka dengan teks editor. Bisa digunakan untuk menampilkan konfigurasi salah satu fitur tertentu, tanpa harus menampilkan semua konfigurasi router. 
